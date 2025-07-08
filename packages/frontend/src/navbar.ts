@@ -73,6 +73,12 @@ export const navbarItemDef = reactive({
 		icon: 'ti ti-search',
 		to: '/search',
 	},
+	yamiSearch: {
+		title: i18n.ts._yami.searchYamiNotes,
+		icon: 'ti ti-search',
+		to: '/search/yami',
+		show: computed(() => $i?.isInYamiMode),
+	},
 	lookup: {
 		title: i18n.ts.lookup,
 		icon: 'ti ti-world-search',

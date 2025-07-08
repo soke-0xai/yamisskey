@@ -21,7 +21,7 @@
 
 	<div v-else-if="results.length > 0" class="results">
 		<div class="result-count">
-			{{ i18n.ts._yami.searchResultsCount(results.length) }}
+			{{ i18n.ts._yami.searchResultsCount.replace('{count}', results.length.toString()) }}
 		</div>
 		<div class="notes">
 			<MkNote

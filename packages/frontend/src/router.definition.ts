@@ -194,6 +194,10 @@ export const ROUTE_DEF = [{
 		name: 'profile',
 		component: page(() => import('@/pages/settings/accounts.vue')),
 	}, {
+		path: '/yami',
+		name: 'yami',
+		component: page(() => import('@/pages/settings/yami-settings.vue')),
+	}, {
 		path: '/other',
 		name: 'other',
 		component: page(() => import('@/pages/settings/other.vue')),
@@ -253,6 +257,13 @@ export const ROUTE_DEF = [{
 	component: page(() => import('@/pages/explore.vue')),
 	hash: 'initialTab',
 	loginRequired: true,
+}, {
+	path: '/search/yami',
+	component: page(() => import('@/pages/search-yami.vue')),
+	loginRequired: true,
+	query: {
+		q: 'query',
+	},
 }, {
 	path: '/search',
 	component: page(() => import('@/pages/search.vue')),

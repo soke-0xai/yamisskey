@@ -127,6 +127,12 @@ const menuDef = computed<SuperMenuDef[]>(() => [{
 		text: i18n.ts.plugins,
 		to: '/settings/plugin',
 		active: currentPage.value?.route.name === 'plugin',
+	}, {
+		icon: 'ti ti-moon',
+		text: i18n.ts._yami.yamiSet,
+		to: '/settings/yami',
+		active: currentPage.value?.route.name === 'yami',
+		show: computed(() => $i?.isInYamiMode),
 	}],
 }, {
 	items: [{

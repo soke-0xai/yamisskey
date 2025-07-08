@@ -3320,6 +3320,15 @@ _yami:
   yamiNoteFederationTrustedInstances: '信頼済みやみモード対応インスタンス'
   yamiNoteFederationTrustedInstancesDescription: 'やみノートを配信・閲覧するインスタンスのホスト名を改行で区切って入力します。'
   yamiNoteFederationWarning: '警告: やみノートは信頼済みインスタンスにのみ配信されますが、リモートインスタンスの実装状況によっては適切に処理されない可能性があります。信頼できるインスタンスのみを追加してください。'
+  searchYamiNotes: "やみノートを検索"
+  searchResultsCount: "{count}件の結果"
+  noYamiNotesFound: "やみノートが見つかりませんでした"
+  searchTips: "検索のヒント"
+  searchTip1: "キーワードを入力してやみノートを検索できます"
+  searchTip2: "複数のキーワードは空白で区切ってください"
+  searchTip3: "引用符で囲むと完全一致で検索できます"
+  queryTooLong: "検索クエリが長すぎます（最大1000文字）"
+  invalidQuery: "検索クエリに無効な文字が含まれています"
   _yamiModeSwitcher:
     enterYamiModeConfirm: "やみモードに切り替えますか？やみモードにすると、他人のやみノートを閲覧できるようになります"
     exitYamiModeConfirm: "通常モードに戻りますか？通常モードにすると、他人のやみノートを閲覧できなくなります"
